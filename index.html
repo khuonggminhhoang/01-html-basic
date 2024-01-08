@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- <script src="html.js"></script> -->
+    <title>Bai 1</title>
+
+</head>
+
+<body>
+    <!-- Thẻ h1 -> h6 (heading) là các thẻ tiêu đề -->
+    <h1>Tiêu đề 1</h1>
+    <h2>Tiêu đề 2</h2>
+    <h3>Tiêu đề 3</h3>
+    <h4>Tiêu đề 4</h4>
+    <h5>Tiêu đề 5</h5>
+    <h6>Tiêu đề 6</h6>
+
+    <!-- Thẻ <p></p> (paragraph) là thẻ chứa các đoạn văn bản -->
+    <p>Tầng trình diễn (presentation):
+        cho phép các ứng dụng diễn dịch
+        ý nghĩa của dữ liệu, ví dụ: mã
+        hóa, nén, định dạng của từng
+        máy cụ thể</p>
+
+    <p>Tầng phiên (session): đồng bộ
+        hóa, quản lý phiên của ứng dụng</p>
+    <p>Trong mạng Internet không có
+        các tầng này!</p>
+
+    <!-- Thẻ <b></b> (Bold) để viết in đậm một đoạn văn bản -->
+    <!-- Thẻ <i></i> (Italic) để viết in nghiêng một đoạn văn bản -->
+    <!-- Thẻ <u></u> (Underline) để viết gạch chân một đoạn văn bản -->
+    <p>Hello <b>Hoàng Minh Khương</b></p>
+    <p>Hello <i>Hoàng Minh Khương</i></p>
+    <p>Hello <u>Hoàng Minh Khương</u></p>
+
+    <!-- class và id là các thuộc tính, "paragraph" và "prg" là các giá trị của 2 thuộc tính đó -->
+    <p class="paragraph" id="prg">Liên kết trên đường giữa hai đầu cuối mà làm giới hạn thông
+        lượng giữa hai đầu cuối đó.</p>
+
+
+    <!-- formatting -->
+    <!-- thẻ <sub></sub> (subscripted): viết chỉ số dưới -->
+    <p>H<sub>2</sub>SO<sub>4</sub></p>
+    <p>HNO<sub>3</sub></p>
+
+    <!-- thẻ <sup></sup> (superscripted) : viết chỉ số mũ-->
+    <p>a<sup>2</sup> + b<sup>2</sup> = 0</p>
+
+    <!-- thẻ <del></del> (delete) : hiển thị text bị gạch ngang -->
+    <p>
+        <b>9.000.000 VND</b>
+        <del>12.000.000 VND</del>
+    </p>
+
+    <!-- Links -->
+    <a href="https://translate.google.com/?sl=en&tl=vi&text=subscripted&op=translate">Translate</a>
+
+    <!-- Thuộc tính target, nếu giá trị của target là "_self" (mặc định) thì click vào link sẽ mở ngay trong tab hiện tại -->
+    <!-- nếu giá trị của target là "_blank" thì click vào link sẽ mở sang tab khác -->
+    <br>
+    <a target="_blank" href="https://translate.google.com/?sl=en&tl=vi&text=subscripted&op=translate">Translate với target = "__blank"</a>
+    <br>
+    <a target="_self" href="https://translate.google.com/?sl=en&tl=vi&text=subscripted&op=translate">Translate với target = "_self"</a>
+    <br>
+
+    <!-- Images -->
+    <img src="shopping_in_base.png" alt="Mô tả ảnh ở đây, nếu lỗi src ảnh thì hiện ra dòng này">
+    <img src="images/shopping_in_folder.png" alt="Mô tả ảnh ở đây, nếu lỗi src thì hiện ra dòng này">
+    <img src="../shopping_2.png" alt="Ảnh lỗi src rồi">
+
+    <a target="_blank" href="https://translate.google.com/?sl=en&tl=vi&text=subscripted&op=translate">
+        <img src="shopping_in_base.png" alt="img error...">
+    </a>
+    
+</body>
+
+</html>
